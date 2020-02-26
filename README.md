@@ -1,7 +1,7 @@
 # Translator
 Translator 翻译器
 
-基于 OCR 和 翻译API 
+基于 OCR 和 翻译 API 
 
 OCR API:
 
