@@ -24,7 +24,7 @@ OCR API:
 
 # 下载
 
-a0035e6
+https://github.com/AisekuOu/Translator/releases
 
 # 使用说明
 
