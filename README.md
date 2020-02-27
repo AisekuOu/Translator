@@ -1,5 +1,4 @@
 # Translator
-Translator 翻译器
 
 基于 OCR 和 翻译 API 
 
@@ -22,3 +21,7 @@ OCR API:
 4.有道网页翻译
 
 5.腾讯AI开放平台翻译
+
+# 编译指南
+
+请参考该目录下的WIKI
