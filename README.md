@@ -24,4 +24,8 @@ OCR API:
 
 # 编译指南
 
-请参考该目录下的WIKI
+工程是基于Visual Basic .NET Framework 写的
+
+语言用的是Visual Basic
+
+编译环境是Visual Studio 2019
