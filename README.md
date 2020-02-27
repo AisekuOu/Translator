@@ -32,6 +32,12 @@ API注册说明文档和使用说明在工程目录下的Doc文件夹内
 
 https://github.com/AisekuOu/Translator/tree/master/Doc
 
+# 问题反馈
+
+请在如下链接处填写问题反馈
+
+https://github.com/AisekuOu/Translator/issues/new
+
 # 编译指南
 
 工程是基于Visual Basic .NET Framework 写的
