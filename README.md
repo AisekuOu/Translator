@@ -22,6 +22,16 @@ OCR API:
 
 5.腾讯AI开放平台翻译
 
+# 下载
+
+https://github.com/AisekuOu/Translator/releases
+
+# 使用说明
+
+API注册说明文档和使用说明在工程目录下的Doc文件夹内
+
+https://github.com/AisekuOu/Translator/tree/master/Doc
+
 # 编译指南
 
 工程是基于Visual Basic .NET Framework 写的
