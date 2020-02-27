@@ -22,6 +22,14 @@ OCR API:
 
 5.腾讯AI开放平台翻译
 
+# 下载
+
+a0035e6
+
+# 使用说明
+
+API注册说明文档和使用说明在工程目录下的Doc文件夹内
+
 # 编译指南
 
 工程是基于Visual Basic .NET Framework 写的
@@ -29,7 +37,3 @@ OCR API:
 语言用的是Visual Basic
 
 编译环境是Visual Studio 2019
-
-# 使用说明
-
-API注册说明文档和使用说明在工程目录下的Doc文件夹内
