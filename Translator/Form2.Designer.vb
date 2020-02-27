@@ -56,6 +56,7 @@ Partial Class Form2
         Me.lblOTH = New System.Windows.Forms.Label()
         Me.lblTSL = New System.Windows.Forms.Label()
         Me.lblOCR = New System.Windows.Forms.Label()
+        Me.lblUpgrade = New System.Windows.Forms.Label()
         CType(Me.tbxOpacity, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelOther.SuspendLayout()
         Me.PanelTSL.SuspendLayout()
@@ -420,6 +421,17 @@ Partial Class Form2
         Me.lblOCR.TabIndex = 19
         Me.lblOCR.Text = "   "
         '
+        'lblUpgrade
+        '
+        Me.lblUpgrade.AutoSize = True
+        Me.lblUpgrade.Font = New System.Drawing.Font("Microsoft JhengHei UI", 23.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblUpgrade.Image = CType(resources.GetObject("lblUpgrade.Image"), System.Drawing.Image)
+        Me.lblUpgrade.Location = New System.Drawing.Point(153, 9)
+        Me.lblUpgrade.Name = "lblUpgrade"
+        Me.lblUpgrade.Size = New System.Drawing.Size(33, 40)
+        Me.lblUpgrade.TabIndex = 22
+        Me.lblUpgrade.Text = "  "
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -427,6 +439,7 @@ Partial Class Form2
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(295, 392)
         Me.ControlBox = False
+        Me.Controls.Add(Me.lblUpgrade)
         Me.Controls.Add(Me.lblOTH)
         Me.Controls.Add(Me.lblTSL)
         Me.Controls.Add(Me.lblOCR)
@@ -486,4 +499,5 @@ Partial Class Form2
     Friend WithEvents lblTencentOCR As Label
     Friend WithEvents lblDebug As Label
     Friend WithEvents lblTSLSwitch As Label
+    Friend WithEvents lblUpgrade As Label
 End Class

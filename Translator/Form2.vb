@@ -268,13 +268,13 @@
 
     End Sub
 
-    Private Sub lbl_MouseEnter(sender As Object, e As EventArgs) Handles lblFont.MouseEnter, lblBackColor.MouseEnter, lblOCR.MouseEnter, lblTSL.MouseEnter, lblOTH.MouseEnter, lblTesseractOCR.MouseEnter, lblBaiduOCR.MouseEnter, lblTencentOCR.MouseEnter, lblBaiduTLS.MouseEnter, lblYoudaoTLS.MouseEnter, lblTencentTLS.MouseEnter, lblScanMode.MouseEnter, lblOCR_Threshold.MouseEnter, lblDebug.MouseEnter, lblTSLSwitch.MouseEnter
+    Private Sub lbl_MouseEnter(sender As Object, e As EventArgs) Handles lblFont.MouseEnter, lblBackColor.MouseEnter, lblOCR.MouseEnter, lblTSL.MouseEnter, lblOTH.MouseEnter, lblTesseractOCR.MouseEnter, lblBaiduOCR.MouseEnter, lblTencentOCR.MouseEnter, lblBaiduTLS.MouseEnter, lblYoudaoTLS.MouseEnter, lblTencentTLS.MouseEnter, lblScanMode.MouseEnter, lblOCR_Threshold.MouseEnter, lblDebug.MouseEnter, lblTSLSwitch.MouseEnter, lblUpgrade.MouseEnter
 
         sender.BackColor = Color.Gray
 
     End Sub
 
-    Private Sub lbl_MouseLeave(sender As Object, e As EventArgs) Handles lblFont.MouseLeave, lblBackColor.MouseLeave, lblOCR.MouseLeave, lblTSL.MouseLeave, lblOTH.MouseLeave, lblTesseractOCR.MouseLeave, lblBaiduOCR.MouseLeave, lblTencentOCR.MouseLeave, lblBaiduTLS.MouseLeave, lblYoudaoTLS.MouseLeave, lblTencentTLS.MouseLeave, lblScanMode.MouseLeave, lblOCR_Threshold.MouseLeave, lblDebug.MouseLeave, lblTSLSwitch.MouseLeave
+    Private Sub lbl_MouseLeave(sender As Object, e As EventArgs) Handles lblFont.MouseLeave, lblBackColor.MouseLeave, lblOCR.MouseLeave, lblTSL.MouseLeave, lblOTH.MouseLeave, lblTesseractOCR.MouseLeave, lblBaiduOCR.MouseLeave, lblTencentOCR.MouseLeave, lblBaiduTLS.MouseLeave, lblYoudaoTLS.MouseLeave, lblTencentTLS.MouseLeave, lblScanMode.MouseLeave, lblOCR_Threshold.MouseLeave, lblDebug.MouseLeave, lblTSLSwitch.MouseLeave, lblUpgrade.MouseLeave
 
         Dim OCR_API_Choice_Name() = {"Tesseract", "Baidu", "Tencent"}
         Dim OCR_API_Choice_NObject() = {lblTesseractOCR, lblBaiduOCR， lblTencentOCR}
@@ -585,4 +585,9 @@
 
     End Sub
 
+    Private Sub lblUpgrade_Click(sender As Object, e As EventArgs) Handles lblUpgrade.Click
+
+        Process.Start("https://aisekuou.github.io/Translator/")
+
+    End Sub
 End Class
