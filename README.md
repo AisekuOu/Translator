@@ -29,3 +29,7 @@ OCR API:
 语言用的是Visual Basic
 
 编译环境是Visual Studio 2019
+
+# 使用说明
+
+API注册说明文档和使用说明在工程目录下的Doc文件夹内
