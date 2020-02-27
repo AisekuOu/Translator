@@ -1,0 +1,87 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="BDOCR_API_KEY" Type="System.String" Scope="User">
+      <Value Profile="(Default)">233333333333333</Value>
+    </Setting>
+    <Setting Name="BDOCR_SECRET_KEY" Type="System.String" Scope="User">
+      <Value Profile="(Default)">233333333333333</Value>
+    </Setting>
+    <Setting Name="YDTSL_API_KEY" Type="System.String" Scope="User">
+      <Value Profile="(Default)">233333333333333</Value>
+    </Setting>
+    <Setting Name="YDTSL_SECRET_KEY" Type="System.String" Scope="User">
+      <Value Profile="(Default)">233333333333333</Value>
+    </Setting>
+    <Setting Name="FontCOLOR" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="FontSTYLE" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Microsoft JhengHei UI, 20.25pt</Value>
+    </Setting>
+    <Setting Name="BackCOLOR" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">64, 64, 64</Value>
+    </Setting>
+    <Setting Name="BackOpacity" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.61</Value>
+    </Setting>
+    <Setting Name="BDTSL_API_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">233333333333333</Value>
+    </Setting>
+    <Setting Name="BDTSL_API_KEY" Type="System.String" Scope="User">
+      <Value Profile="(Default)">233333333333333</Value>
+    </Setting>
+    <Setting Name="TSL_API_Choice" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Baidu</Value>
+    </Setting>
+    <Setting Name="TCTSL_API_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">233333333333333</Value>
+    </Setting>
+    <Setting Name="TCTSL_API_KEY" Type="System.String" Scope="User">
+      <Value Profile="(Default)">233333333333333</Value>
+    </Setting>
+    <Setting Name="OCR_Detect_Left" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="OCR_Detect_Down" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="OCR_Scan_Mode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AUTO</Value>
+    </Setting>
+    <Setting Name="OCR_API_Choice" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Baidu</Value>
+    </Setting>
+    <Setting Name="AUTO_STOP" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TesseractOCR_ThresholdNumberSet" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">245</Value>
+    </Setting>
+    <Setting Name="TCOCR_API_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">233333333333333</Value>
+    </Setting>
+    <Setting Name="TCOCR_API_KEY" Type="System.String" Scope="User">
+      <Value Profile="(Default)">233333333333333</Value>
+    </Setting>
+    <Setting Name="LOG_Switch" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TSL_Switch_BD_API" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TSL_Switch_BD_WEB" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TSL_Switch_YD_API" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TSL_Switch_YD_WEB" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TSL_Switch_TC_API" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
