@@ -38,10 +38,3 @@ https://github.com/AisekuOu/Translator/tree/master/Doc
 
 https://github.com/AisekuOu/Translator/issues/new
 
-# 编译指南
-
-工程是基于Visual Basic .NET Framework 写的
-
-语言用的是Visual Basic
-
-编译环境是Visual Studio 2019
