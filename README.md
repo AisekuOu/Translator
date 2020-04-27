@@ -34,7 +34,7 @@ https://github.com/AisekuOu/Translator/releases
 
 # 使用说明
 
-API注册说明文档和使用说明在工程目录下的Doc文件夹内
+API注册说明文档和使用说及用戶討論組聯係方式在工程目录下的Doc文件夹内
 
 https://github.com/AisekuOu/Translator/tree/master/Doc
 
