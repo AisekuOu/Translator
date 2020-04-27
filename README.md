@@ -1,5 +1,9 @@
 # Translator
 
+用戶討論組
+
+qq群 1051851201
+
 基于 OCR 和 翻译 API 
 
 OCR API:
