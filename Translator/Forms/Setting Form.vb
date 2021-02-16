@@ -102,6 +102,18 @@
 
                 lblTencentOCR.BackColor = Color.Gray
 
+            Case "Textractor"
+
+                lblOCR_1.Visible = False
+
+                lblOCR_2.Visible = False
+
+                txtOCR_1.Visible = False
+
+                txtOCR_2.Visible = False
+
+                lblTextractor.BackColor = Color.Gray
+
         End Select
 
         Select Case My.Settings.TSL_API_Choice
@@ -268,16 +280,16 @@
 
     End Sub
 
-    Private Sub lbl_MouseEnter(sender As Object, e As EventArgs) Handles lblFont.MouseEnter, lblBackColor.MouseEnter, lblOCR.MouseEnter, lblTSL.MouseEnter, lblOTH.MouseEnter, lblTesseractOCR.MouseEnter, lblBaiduOCR.MouseEnter, lblTencentOCR.MouseEnter, lblBaiduTLS.MouseEnter, lblYoudaoTLS.MouseEnter, lblTencentTLS.MouseEnter, lblScanMode.MouseEnter, lblDebug.MouseEnter, lblTSLSwitch.MouseEnter, lblUpgrade.MouseEnter
+    Private Sub lbl_MouseEnter(sender As Object, e As EventArgs) Handles lblFont.MouseEnter, lblBackColor.MouseEnter, lblOCR.MouseEnter, lblTSL.MouseEnter, lblOTH.MouseEnter, lblTesseractOCR.MouseEnter, lblBaiduOCR.MouseEnter, lblTencentOCR.MouseEnter, lblTextractor.MouseEnter, lblBaiduTLS.MouseEnter, lblYoudaoTLS.MouseEnter, lblTencentTLS.MouseEnter, lblScanMode.MouseEnter, lblDebug.MouseEnter, lblTSLSwitch.MouseEnter, lblUpgrade.MouseEnter
 
         sender.BackColor = Color.Gray
 
     End Sub
 
-    Private Sub lbl_MouseLeave(sender As Object, e As EventArgs) Handles lblFont.MouseLeave, lblBackColor.MouseLeave, lblOCR.MouseLeave, lblTSL.MouseLeave, lblOTH.MouseLeave, lblTesseractOCR.MouseLeave, lblBaiduOCR.MouseLeave, lblTencentOCR.MouseLeave, lblBaiduTLS.MouseLeave, lblYoudaoTLS.MouseLeave, lblTencentTLS.MouseLeave, lblScanMode.MouseLeave, lblDebug.MouseLeave, lblTSLSwitch.MouseLeave, lblUpgrade.MouseLeave
+    Private Sub lbl_MouseLeave(sender As Object, e As EventArgs) Handles lblFont.MouseLeave, lblBackColor.MouseLeave, lblOCR.MouseLeave, lblTSL.MouseLeave, lblOTH.MouseLeave, lblTesseractOCR.MouseLeave, lblBaiduOCR.MouseLeave, lblTencentOCR.MouseLeave, lblTextractor.MouseLeave, lblBaiduTLS.MouseLeave, lblYoudaoTLS.MouseLeave, lblTencentTLS.MouseLeave, lblScanMode.MouseLeave, lblDebug.MouseLeave, lblTSLSwitch.MouseLeave, lblUpgrade.MouseLeave
 
-        Dim OCR_API_Choice_Name() = {"Tesseract", "Baidu", "Tencent"}
-        Dim OCR_API_Choice_NObject() = {lblTesseractOCR, lblBaiduOCR， lblTencentOCR}
+        Dim OCR_API_Choice_Name() = {"Tesseract", "Baidu", "Tencent", "Textractor"}
+        Dim OCR_API_Choice_NObject() = {lblTesseractOCR, lblBaiduOCR， lblTencentOCR, lblTextractor}
 
         Dim TSL_API_Choice_Name() = {"Baidu", "Youdao", "Tencent"}
         Dim TSL_API_Choice_NObject() = {lblBaiduTLS, lblYoudaoTLS, lblTencentTLS}
@@ -461,11 +473,11 @@
 
     'End Sub
 
-    Private Sub lbl_OCR_Click(sender As Object, e As EventArgs) Handles lblTesseractOCR.Click, lblBaiduOCR.Click, lblTencentOCR.Click
+    Private Sub lbl_OCR_Click(sender As Object, e As EventArgs) Handles lblTesseractOCR.Click, lblBaiduOCR.Click, lblTencentOCR.Click, lblTextractor.Click
 
         Dim sender_name As String = ""
-        Dim OCR_API_Choice_Name() = {"Tesseract", "Baidu", "Tencent"}
-        Dim OCR_API_Choice_NObject() = {lblTesseractOCR, lblBaiduOCR， lblTencentOCR}
+        Dim OCR_API_Choice_Name() = {"Tesseract", "Baidu", "Tencent", "Textractor"}
+        Dim OCR_API_Choice_NObject() = {lblTesseractOCR, lblBaiduOCR， lblTencentOCR, lblTextractor}
 
         For i As Integer = 0 To OCR_API_Choice_NObject.Length - 1
 
@@ -544,6 +556,20 @@
                 txtOCR_2.Text = My.Settings.TCOCR_API_KEY
 
                 lblTencentOCR.BackColor = Color.Gray
+
+            Case "Textractor"
+
+                My.Settings.OCR_API_Choice = "Textractor"
+
+                lblOCR_1.Visible = False
+
+                lblOCR_2.Visible = False
+
+                txtOCR_1.Visible = False
+
+                txtOCR_2.Visible = False
+
+                lblTextractor.BackColor = Color.Gray
 
         End Select
 

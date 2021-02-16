@@ -9,10 +9,10 @@ Imports System.Runtime.InteropServices
 '查看程序集特性的值
 
 <Assembly: AssemblyTitle("Translator")>
-<Assembly: AssemblyDescription("添加识别增强，添加语言选项。")>
+<Assembly: AssemblyDescription("添加支持Textractor。")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("Translator")>
-<Assembly: AssemblyCopyright("Copyright © Issac Wang 2020")>
+<Assembly: AssemblyCopyright("Copyright © Issac Wang 2021")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 '通过使用 "*"，如下所示:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("0.0.12.506")>
-<Assembly: AssemblyFileVersion("0.0.12.506")>
+<Assembly: AssemblyVersion("0.0.13.506")>
+<Assembly: AssemblyFileVersion("0.0.13.506")>

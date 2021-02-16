@@ -48,6 +48,7 @@ Partial Class Form2
         Me.lblYoudaoTLS = New System.Windows.Forms.Label()
         Me.lblTencentTLS = New System.Windows.Forms.Label()
         Me.PanelOCR = New System.Windows.Forms.Panel()
+        Me.lblTextractor = New System.Windows.Forms.Label()
         Me.lblTesseractOCR = New System.Windows.Forms.Label()
         Me.lblTencentOCR = New System.Windows.Forms.Label()
         Me.lblScanMode = New System.Windows.Forms.Label()
@@ -315,6 +316,7 @@ Partial Class Form2
         '
         'PanelOCR
         '
+        Me.PanelOCR.Controls.Add(Me.lblTextractor)
         Me.PanelOCR.Controls.Add(Me.lblTesseractOCR)
         Me.PanelOCR.Controls.Add(Me.lblTencentOCR)
         Me.PanelOCR.Controls.Add(Me.lblScanMode)
@@ -328,13 +330,25 @@ Partial Class Form2
         Me.PanelOCR.Size = New System.Drawing.Size(275, 332)
         Me.PanelOCR.TabIndex = 18
         '
+        'lblTextractor
+        '
+        Me.lblTextractor.AutoSize = True
+        Me.lblTextractor.Font = New System.Drawing.Font("Microsoft JhengHei UI", 27.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTextractor.ForeColor = System.Drawing.Color.Silver
+        Me.lblTextractor.Image = CType(resources.GetObject("lblTextractor.Image"), System.Drawing.Image)
+        Me.lblTextractor.Location = New System.Drawing.Point(20, 153)
+        Me.lblTextractor.Name = "lblTextractor"
+        Me.lblTextractor.Size = New System.Drawing.Size(200, 46)
+        Me.lblTextractor.TabIndex = 26
+        Me.lblTextractor.Text = "                    "
+        '
         'lblTesseractOCR
         '
         Me.lblTesseractOCR.AutoSize = True
         Me.lblTesseractOCR.Font = New System.Drawing.Font("Microsoft JhengHei UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTesseractOCR.ForeColor = System.Drawing.Color.Silver
         Me.lblTesseractOCR.Image = CType(resources.GetObject("lblTesseractOCR.Image"), System.Drawing.Image)
-        Me.lblTesseractOCR.Location = New System.Drawing.Point(11, 128)
+        Me.lblTesseractOCR.Location = New System.Drawing.Point(10, 108)
         Me.lblTesseractOCR.Name = "lblTesseractOCR"
         Me.lblTesseractOCR.Size = New System.Drawing.Size(218, 35)
         Me.lblTesseractOCR.TabIndex = 23
@@ -346,7 +360,7 @@ Partial Class Form2
         Me.lblTencentOCR.Font = New System.Drawing.Font("Microsoft JhengHei UI", 29.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTencentOCR.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.lblTencentOCR.Image = CType(resources.GetObject("lblTencentOCR.Image"), System.Drawing.Image)
-        Me.lblTencentOCR.Location = New System.Drawing.Point(76, 67)
+        Me.lblTencentOCR.Location = New System.Drawing.Point(22, 50)
         Me.lblTencentOCR.Name = "lblTencentOCR"
         Me.lblTencentOCR.Size = New System.Drawing.Size(182, 49)
         Me.lblTencentOCR.TabIndex = 25
@@ -369,7 +383,7 @@ Partial Class Form2
         Me.lblBaiduOCR.Font = New System.Drawing.Font("Microsoft JhengHei UI", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblBaiduOCR.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.lblBaiduOCR.Image = CType(resources.GetObject("lblBaiduOCR.Image"), System.Drawing.Image)
-        Me.lblBaiduOCR.Location = New System.Drawing.Point(45, 18)
+        Me.lblBaiduOCR.Location = New System.Drawing.Point(11, 6)
         Me.lblBaiduOCR.Name = "lblBaiduOCR"
         Me.lblBaiduOCR.Size = New System.Drawing.Size(141, 35)
         Me.lblBaiduOCR.TabIndex = 17
@@ -486,4 +500,5 @@ Partial Class Form2
     Friend WithEvents lblDebug As Label
     Friend WithEvents lblTSLSwitch As Label
     Friend WithEvents lblUpgrade As Label
+    Friend WithEvents lblTextractor As Label
 End Class
