@@ -6,7 +6,7 @@ QQ群
 
   1051851201
 
-基于 OCR 和 翻译 API 
+基于 OCR, Textractor 和 翻译 API 
 
 OCR API:
 
@@ -15,6 +15,8 @@ OCR API:
 2.腾讯AI开放平台OCR
 
 3.Tesseract OCR
+
+Textractor
 
 翻译 API:
 
